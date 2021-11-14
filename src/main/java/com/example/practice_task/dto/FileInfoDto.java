@@ -5,12 +5,13 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.util.Date;
+import java.util.UUID;
 
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
 public class FileInfoDto {
-    private Long id;
+    private UUID id;
     private String filename;
     private String fileType;
     private Date uploadDate;
